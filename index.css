@@ -1,0 +1,71 @@
+/* index.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    margin: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+}
+
+#auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#register-form,
+#forgot-password-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#close-btn {
+    cursor: pointer;
+}
+
+/* index.css */
+
+#image-container {
+    width: 100%;
+    overflow: hidden; /* Hide any potential overflow */
+}
+
+#image-container img {
+    width: 100%;
+    display: block; /* Ensure it behaves as a block element */
+}
