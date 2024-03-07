@@ -21,7 +21,7 @@ function createExcel() {
     XLSX.utils.book_append_sheet(workbook, worksheet, 'UserCredentials');
 
     // Save the workbook as an XLSX file
-    XLSX.writeFile(workbook, 'user_credentials.xlsx');
+    XLSX.writeFile(workbook, 'user_details.xlsx');
 }
 
 
