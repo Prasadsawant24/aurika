@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurika Hotel Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Aurika Hotel Services</h1>
+    
+    <div class="input-container">
+        <input type="text" id="roomNumber" placeholder="Enter Room Number">
+    </div>
+
+    <div class="orders-container">
+        <div class="pickUp-section">
+            <button onclick="handlePickUp()">Laundry Pick Up</button>
+            <div class="pickUpContainer">
+                <h3>Laundry Pick-Up Orders</h3>
+            </div>
+            <ul id="pickUpList"></ul>
+        </div>
+
+        <div class="delivery-section">
+            <button onclick="handleDelivery()">Laundry Delivery</button>
+            <div class="deliveryContainer">
+                <h3>Laundry Delivery Orders</h3>
+            </div>
+            <ul id="deliveryList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

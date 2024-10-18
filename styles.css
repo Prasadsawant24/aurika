@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items at the top */
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+    width: 100%; /* Full width of the container */
+    max-width: 800px; /* Set max width for the input area */
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%; /* Full width of the input container */
+    font-size: 16px;
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.orders-container {
+	
+    display: flex;
+    justify-content: space-between; /* Aligns sections to left and right */
+    width: 100%; /* Full width */
+    max-width: 800px; /* Limit the maximum width of the container */
+    gap: 20px; /* Space between pick up and delivery sections */
+    margin-bottom: 20px; /* Space below order buttons */
+	align-items: stretch;
+}
+
+.pickUp-section, .delivery-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the button and list */
+    width: 100%; /* Make each section full width of the parent */
+    max-width: 350px; /* Set a maximum width for each section */
+	background-color: #fff;
+	padding: 15px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+button {
+    padding: 15px 0; /* Adjust padding for buttons */
+    font-size: 16px;
+    width: 100%; /* Make button full width of the section */
+    cursor: pointer;
+}
+
+.pickUpContainer, .deliveryContainer {
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 100%; /* Make the container full width of the section */
+    box-sizing: border-box; /* Include padding and border in width */
+    margin-top: 10px; /* Space between button and list */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Full width of the list */
+}
+
+li {
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+}
